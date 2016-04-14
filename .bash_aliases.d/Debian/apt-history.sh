@@ -1,0 +1,5 @@
+alias historya='apt-history'
+alias historyi='apt-history install'
+alias historyre='apt-history remove'
+alias historyro='apt-history rollback'
+alias historyu='apt-history upgrade'
