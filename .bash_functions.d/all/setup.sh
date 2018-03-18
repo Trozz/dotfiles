@@ -13,23 +13,12 @@ function npminstall() {
   node=(
    bower
    david
-   generator-angular
-   generator-dashing-go
-   generator-footguard
-   generator-frontend
-   generator-hubot
-   generator-karma
-   generator-meanjs
-   generator-server-configs
    grunt
    grunt-cli
-   is-online
    is-up
    license-checker
    nodemon
    public-ip
-   react-ui-builder
-   sparkly
    vtop
    wifi-password
    yo
@@ -98,13 +87,13 @@ function caskinstall() {
    shuttle
    skype
    slack
-   sourcetree
+   #sourcetree
    the-unarchiver
    vagrant
    vagrant-manager
    virtualbox
    vlc
-   whatsapp
+   #whatsapp
    yasu
   )
 
@@ -128,15 +117,9 @@ function fontinstall() {
 function pipinstall() {
   # Install python apps
   pip=(
-   requests==2.6.0
+   requests
    ansible
-   python-novaclient
-   supernova
-   rackspace-novaclient
    pep8
-   -i https://hammercloud.rackspace.com/simple hammercloud
-   -i https://hammercloud.rackspace.com/simple overtime
-   http://hammertime.me/hammertime.tgz
   )
   echo "installing pip apps..."
   sudo pip install ${pip[@]}
